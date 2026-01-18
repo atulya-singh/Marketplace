@@ -153,10 +153,13 @@ EXPO_PUBLIC_FIREBASE_APP_ID
 
 You can configure these using .env, app.config.js, or your preferred Expo env setup.
 
-Cloud Functions
+### 4. Cloud Functions
 cd functions
 npm install
 npm run build
 npm run serve    # Firebase emulator (requires Firebase CLI)
 # or
 npm run deploy
+
+This is how you make a line **bold** in Markdown.
+
