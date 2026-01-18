@@ -1,1 +1,1 @@
-Screenshots of hown the screens look on an actual phone.
+Screenshots of how the screens look on an actual phone.
