@@ -66,6 +66,7 @@ A mobile-first marketplace built with **Expo + React Native (TypeScript)**, desi
 Routing is handled with **expo-router**, organized using route groups:
 
 app/
+
 ├── (auth)/ # Auth flows (sign up, login, verify)
 
 ├── (tabs)/ # Main tab navigation
