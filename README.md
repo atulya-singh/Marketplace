@@ -83,8 +83,6 @@ app/
 
 └── _layout.tsx # Root router & auth integration
 
-markdown
-Copy code
 
 - Auth state is provided via `AuthProvider` (`AuthContext.tsx`)
 - Firebase initialization and persistence are configured in `firebase.ts`
