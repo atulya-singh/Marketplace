@@ -67,12 +67,19 @@ Routing is handled with **expo-router**, organized using route groups:
 
 app/
 ├── (auth)/ # Auth flows (sign up, login, verify)
+
 ├── (tabs)/ # Main tab navigation
+
 │ ├── index.tsx # Discover / Swipe feed
+
 │ ├── add-listing.tsx
+
 │ └── _layout.tsx # Custom tab bar
+
 ├── listing/ # Listing detail & edit routes
+
 ├── chat/ # Messaging threads
+
 └── _layout.tsx # Root router & auth integration
 
 markdown
