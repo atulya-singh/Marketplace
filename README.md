@@ -130,8 +130,9 @@ app/
 ### 1. Install dependencies
 ```bash
 npm install
-
+'''
 ### 2. Start Expo
+'''bash
 npm run start
 
 Platform-specific:
@@ -139,9 +140,9 @@ Platform-specific:
 npm run android
 npm run ios
 npm run web
-
+'''
 ### 3. Environment Variables
-
+'''bash
 Set the following Expo public environment variables (used in firebase.ts):
 
 EXPO_PUBLIC_FIREBASE_API_KEY
@@ -152,8 +153,9 @@ EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
 EXPO_PUBLIC_FIREBASE_APP_ID
 
 You can configure these using .env, app.config.js, or your preferred Expo env setup.
-
+'''
 ### 4. Cloud Functions
+'''bash
 cd functions
 npm install
 npm run build
@@ -161,5 +163,4 @@ npm run serve    # Firebase emulator (requires Firebase CLI)
 # or
 npm run deploy
 
-This is how you make a line **bold** in Markdown.
-
+'''
